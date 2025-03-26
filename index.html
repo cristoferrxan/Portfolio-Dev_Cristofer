@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link para o Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Link para o ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script> <!-- Link para o CSS -->
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Protfólio Dev | Cristofer Ruan </title>
+</head>
+
+<body>
+  <video autoplay loop muted class="video-background">
+    <source src="./videos/galaxy.mp4" type="video/mp4">
+  </video>  
+  </video> <!-- Video de fundo -->
+
+  <button class="btntopo efeito-transform" onclick="backtopo()">
+    <i class='bx bxs-up-arrow-circle'></i>
+    Topo
+  </button> <!-- Botão topo -->
+
+  <header id="header">
+    <nav class="nav-desktop">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav> <!-- Menu desktop -->
+
+    <nav class="nav-mobile" id="nav-mobile">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav> <!-- Menu desktop -->
+
+    <div class="btn-menu-mobile" id="btn-menu-mobile">
+      <div class="line-menu-mobile-1"></div>
+      <div class="line-menu-mobile-2"></div>
+    </div>
+  </header> <!-- Cabecalho -->
+
+  <section class="principal" id="home">
+    <div class="conteudo-principal">
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/cristofer-ruan-dev/" class="link-rede-social efeito-transform">
+          <i class='bx bxl-linkedin'></i>
+          Linkedin
+        </a> <!-- Link para o Linkedin -->
+        <a href="https://github.com/cristoferrxan" class="link-rede-social efeito-transform">
+          <i class='bx bxl-github'></i>
+          GitHub
+        </a> <!-- Link para o GitHub -->
+        <a href="https://wa.me/5551993774587?text=Ol%C3%A1%20tudo%20bem%2C%20o%20que%20posso%20fazer%20por%20voc%C3%AA%20hoje%3F"
+          class="
+          link-rede-social efeito-transform">
+          <i class='bx bxl-whatsapp'></i>
+          Whatsapp
+        </a> <!-- Link para o Whatsapp -->
+        <a href="mailto:cristoferruan.21@gmail.com" class="link-rede-social efeito-transform">
+          <i class='bx bx-envelope'></i>
+          E-mail
+        </a> <!-- Link para o E-mail -->
+      </div> <!-- Redes sociais -->
+
+      <h1>Olá, eu sou <span>Cristofer Ruan</span>.</h1>
+
+      <p>Sou um Desenvolvedor <span>Back End</span>, com foco em Python, SQL e Django, apaixonado por tecnologia e cibersegurança. Busco criar soluções eficientes, escaláveis e seguras, sempre aplicando boas práticas de desenvolvimento. Com aprendizado em instituições como MIT e Harvard, estou em constante evolução para oferecer projetos inovadores e protegidos contra vulnerabilidades.
+      </p>
+
+      <a href="#projetos" class="btn-link efeito-transform">Ver Projetos</a>
+    </div>
+
+    <div class="img-principal">
+      <img src="./img/astronauta-Photoroom.png" alt="imagem principal">
+    </div> <!-- Imagem principal -->
+
+  </section> <!-- Seção principal -->
+
+  <section class="secao" id="projetos">
+    <h2 class="titulo-secao">Projetos</h2>
+
+    <div class="grade-projetos">
+
+      <div class="card-projeto card-projeto-1">
+        <img class="img-projeto" src="./img/stripe.jpeg" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>Integracao com Stripe</h3>
+          <p>Este projeto tem como objetivo integrar a API da Stripe com um backend desenvolvido utilizando FastAPI. A API permite o processamento de pagamentos e a transferência de fundos para vendedores, utilizando o serviço de pagamentos da Stripe.
+          </p>
+          <div class="link-projeto">
+            <a href="https://github.com/cristoferrxan/Integracao_Stripe_Connect" target="_blank"
+              class="codigo efeito-transform">🧑🏾💻
+              Código</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 1 -->
+
+      <div class="card-projeto card-projeto-2">
+        <img class="img-projeto" src="./img/e-ticket.jpg" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>E-Ticket</h3>
+          <p>Um site para compra de ingressos.
+          Foi desenvolvido com o intuito de praticar calculos matemáticos, e estilização de página.</p>
+          <div class="link-projeto">
+            <a href="https://e-ticket-git-main-cristofer-ruans-projects.vercel.app" target="_blank" class="efeito-transform">🌐 Projeto</a>
+            <a href="https://github.com/cristoferrxan/E-ticket" target="_blank"
+              class="codigo efeito-transform">🧑🏾💻
+              Código</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 2 -->
+
+      <div class="card-projeto card-projeto-3">
+        <img class="img-projeto" src="./img/carrinho-compras.jpg" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>Seu carrinho de compras</h3>
+          <p>Uma breve pagina para demonstrar a criação de um carrinho de compras intuitivo.</p>
+          <div class="link-projeto">
+            <a href="https://carrinho-compras-g80kj1s34-cristofer-ruans-projects.vercel.app" target="_blank" class="efeito-transform">🌐 Projeto </a>
+            <a href="https://github.com/cristoferrxan/carrinho-compras" target="_blank"
+              class="codigo efeito-transform">🧑🏾💻
+              Código</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 3 -->
+
+      <div class="card-projeto card-projeto-4">
+        <img class="img-projeto" src="./img/img-mario.png" alt="imagem-projeto">
+
+        <div class="info-projeto">
+          <h3>Super Mario Serviços</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet suscipit amet eos, deleniti ad omnis
+            voluptatibus ex et quo explicabo.</p>
+          <div class="link-projeto">
+            <a href="" target="_blank" class="efeito-transform">🌐 Projeto</a>
+            <a href="https://github.com/ailtonjunior11/Super-Mario-Bros" target="_blank"
+              class="codigo efeito-transform">🧑🏾💻
+              Código</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 4 -->
+
+      <div class="card-projeto card-projeto-5">
+        <img class="img-projeto" src="./img/captacao-de-leeds.jpg" alt="imagem-projeto">
+        <div class="info-projeto">
+          <h3>Página Captura Leads</h3>
+          <p>Este projeto tem como objetivo a captação eficiente de leads através de uma landing page moderna e responsiva. O projeto utiliza tecnologias como HTML, CSS e JavaScript para garantir uma boa experiência ao usuário.</p>
+          <div class="link-projeto">
+            <a href="https://projeto-captacao-leedscristofer-reaey6rui.vercel.app" target="_blank" class="efeito-transform">🌐 Projeto</a>
+            <a href="https://github.com/cristoferrxan/projeto_captacao_leeds" target="_blank"
+              class="codigo efeito-transform">🧑🏾💻
+              Código</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 5 -->
+
+      <div class="card-projeto card-projeto-6">
+        <img class="img-projeto" src="./img/space.jpeg" alt="imagem-projeto">
+        <div class="info-projeto">
+          <h3>Space</h3>
+          <p>Este projeto utiliza Django como framework principal e está configurado para servir arquivos estáticos e templates.</p>
+          <div class="link-projeto">
+            <a href="https://github.com/cristoferrxan/space" target="_blank"
+              class="codigo efeito-transform">🧑🏾💻
+              Código</a>
+          </div> <!-- Link projeto -->
+        </div> <!-- Informações projeto -->
+      </div> <!-- Card 6 -->
+
+    </div> <!-- Container projetos -->
+  </section> <!-- Seção projetos -->
+
+  <section class="secao" id="sobre">
+    <h2 class="titulo-secao">Sobre mim</h2>
+
+    <div class="sobre">
+      <img class="img-sobre" src="./img/img-programador.jpg" alt="foto ailton">
+
+      <div class="conteudo-sobre">
+        <h2>Desenvolvedor Backend apaixonado em criar soluções digitais.</h2>
+        <p>
+          Desde cedo, fui fascinado por tecnologia, iniciando com manutenção de computadores e redes, o que despertou meu interesse por programação e cibersegurança. Minha trajetória profissional abrange desenvolvimento back-end, onde utilizo Python, SQL e Django para criar soluções seguras e escaláveis. Além disso, sou movido pelo aprendizado contínuo, explorando novas tecnologias, boas práticas de segurança digital e otimização de sistemas. Tenho interesse por inteligência artificial, automação e inovação tecnológica, buscando sempre evoluir e aplicar meus conhecimentos para resolver desafios complexos e entregar projetos de alto desempenho.
+        </p>
+        <p>
+          Minha paixão pela tecnologia e pela criação de interfaces intuitivas me impulsiona a buscar constantemente
+          novas maneiras de aprimorar minhas habilidades e criar soluções inovadoras.
+        </p>
+      </p>As principais </span>linguagens de programação</span> que eu utilizo, são:
+      </p>
+        <div class="habilidades">
+          <span class="tag-habilidades efeito-transform">Python</span>
+          <span class="tag-habilidades efeito-transform">Django</span>
+          <span class="tag-habilidades efeito-transform">SQL</span>
+          <span class="tag-habilidades efeito-transform">Pytorch</span>
+          <span class="tag-habilidades efeito-transform">C++</span>
+          <span class="tag-habilidades efeito-transform">Node.Js</span>
+        </div>
+      </div>
+    </div>
+
+  </section> <!-- Seção sobre -->
+
+  <section class="secao" id="contatos">
+    <h2 class="titulo-secao">Contatos</h2>
+
+    <div class="botoes-contatos">
+
+      <a href="https://www.linkedin.com/in/cristofer-ruan-dev//" class="botao-contato linkedin efeito-transform"
+        target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        </svg>
+        <span>LinkedIn</span>
+      </a> <!-- Botao LinkedIn -->
+
+
+      <a href="https://github.com/cristoferrxan" class="botao-contato github efeito-transform" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </svg>
+        <span>GitHub</span>
+      </a> <!-- Botao GitHub -->
+
+      <a href="https://wa.me/5551993774587?text=Ol%C3%A1%20tudo%20bem%2C%20o%20que%20posso%20fazer%20por%20voc%C3%AA%20hoje%3F"
+        class="botao-contato whatsapp efeito-transform" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+          viewBox="0 0 16 16">
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        </svg>
+        <span>WhatsApp</span>
+      </a> <!-- Botao WhatsApp -->
+
+      <a href="mailto:cristoferruan.21@gmail.com" class="botao-contato email efeito-transform" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+        </svg>
+        <span>Email</span>
+      </a> <!-- Botao Email -->
+
+    </div> <!-- Botões de contatos -->
+  </section> <!-- Seção contatos -->
+
+  <footer>
+    <p>Desenvolvido por Cristofer Ruan &copy; 2025</p>
+  </footer> <!-- Rodapé -->
+
+</body> <!-- Corpo da página -->
+
+<script src="./script.js"></script> <!-- Link para o arquivo JavaScript -->
+
+</html>
