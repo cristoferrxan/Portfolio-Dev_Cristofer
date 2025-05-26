@@ -1,6 +1,6 @@
 # 🚀 Nome do Projeto
 
-![Badge de Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow)
+![Badge de Status](https://img.shields.io/badge/status-completo-yellow)
 
 > Breve descrição do projeto, explicando sua finalidade e motivação.
 
